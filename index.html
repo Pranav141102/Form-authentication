@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Submit Form</title>
+  <title>Submit Form</title> <!-- Title that appears in the browser tab -->
 </head>
+
 <body>
+
+  <!-- This is the form where user enters their name and email -->
   <form id="myform">
+    <!-- Input field for name -->
     <label>Name: <input type="text" name="name" required></label><br>
+
+    <!-- Input field for email -->
     <label>Email: <input type="email" name="email" required></label><br>
+
+    <!-- Button that triggers form submission -->
     <button id="btnSubmit">Submit</button>
   </form>
 
+  <!-- jQuery library (required for the JavaScript in form.js to work) -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Link to your external JavaScript file (contains the form handling code) -->
   <script src="form.js"></script>
+
 </body>
 </html>
